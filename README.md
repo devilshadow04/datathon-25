@@ -30,7 +30,7 @@ The raw data does not include transport mode labels. We infer them via **KMeans 
 - `eta_variation_hours` (arrival variability)  
 - `delay_probability` (likelihood of disruption)
 
-![transport_clustering](./transport_cluster.png)
+![transport_clustering](image/transport_cluster.png)
 
 **Steps:**  
 1. Median imputation for missing values  
@@ -52,7 +52,7 @@ We examined spatial patterns of disruption:
    - **Tooltips** show exact values  
 This reveals **corridor-level hotspots** for targeted interventions.
 
-![southcal_map](./southcal_map.png)
+![southcal_map](image/southcal_map.png)
 
 ### 3. Truck-Mode Modelling (AIC-Selected OLS)
 
